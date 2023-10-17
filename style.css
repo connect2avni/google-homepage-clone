@@ -1,0 +1,143 @@
+*{
+    
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgb(26, 18, 18);
+    font-size: 13px;
+}
+.navbar{
+    height:49px;
+    width:100%;
+    
+    
+    
+}
+li{
+    display: inline;
+    list-style: none;
+    float:right;
+
+    
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+    padding-right: 15px;
+    padding-top:15PX ;
+    margin-top: 10px;
+  
+}
+
+.body_wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: blue; */
+}
+
+.image{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.search_box{
+    width: 500px;
+    height: 23px;
+    border-radius: 34px;
+    padding: 13px;
+}
+.button_wrapper{
+    width: 315px;
+    /* background-color: grey; */
+    margin-top: 13px;
+}
+
+.button1{
+    background-color: rgb(47, 44, 44);
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 13px;
+    margin-right:52px;
+    color: aliceblue;
+}
+.button1:hover{
+    background-color: rgb(120, 144, 218);
+    text-decoration: underline;
+    color: black;
+    
+}
+
+.button2{
+    background-color: rgb(47,44,44);
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 13px;
+    color: aliceblue;
+
+
+}
+.button2:hover{
+    background-color: rgb(120, 144, 218);
+    text-decoration: underline;
+    color: black;
+    
+}
+
+.text{
+    color: aliceblue;
+    font-size: 16px;
+    display: flex;
+    margin: 13px;
+    padding: 6px;
+    font-weight: bold;
+    margin-top:20px;
+}
+.red_text{
+    color: red;
+    padding-right: 8px;
+}
+.blue_text{
+    color:rgb(73, 114, 163);
+    padding-right: 8px;
+    
+}
+.text_lang{
+    color:aliceblue;
+    display:flex;
+    font-weight: bold;
+    font-size:small;
+    margin-bottom: 100px;
+}
+.lang_class_blue{
+    color:rgb(73,114,163);
+    
+
+}
+.navbar_2{
+    align-items: left;
+    color:aliceblue;
+    margin-left:20px;
+}
+.left_part{
+color: aliceblue;
+float:left;
+}
+.right_part{
+color: aliceblue;
+float:right;
+}
+    
+
+
+
